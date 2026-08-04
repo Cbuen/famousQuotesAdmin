@@ -1,0 +1,101 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f7f1e5;
+  color: #4a3b2f;
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+}
+
+header {
+  background-color: #6b4f3b;
+  color: #f7f1e5;
+  text-align: center;
+  padding: 18px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+header h1 {
+  color: #f7f1e5;
+  margin: 0;
+}
+
+h1 {
+  color: #6b4f3b;
+}
+
+form {
+  background-color: #fffdf8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #d8c9b8;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+}
+
+input,
+select,
+textarea {
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #bca58c;
+  border-radius: 4px;
+  background-color: #fffdf8;
+  color: #4a3b2f;
+}
+
+textarea {
+  width: 90%;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  min-width: 250px;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+button {
+  background-color: #8b5e3c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6b4f3b;
+}
+
+a {
+  color: #8b5e3c;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: #5b3d28;
+  text-decoration: underline;
+}
+
+h3 {
+  background-color: #e7f3e7;
+  color: #2f6b2f;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+br {
+  line-height: 2;
+}
